@@ -6,7 +6,7 @@
 int matrix[10][10];
 FILE *fp;
 int main(int argc, char **argv){
-    fp = fopen(argv[2], "r");
+    fp = stdin;
     char xd;
     do{
         fscanf(fp,"%c", &xd);
